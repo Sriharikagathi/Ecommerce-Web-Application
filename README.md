@@ -5,17 +5,17 @@ E-commerce is a fully functional *Clothing Ecommerce* Platform made using Django
 
 ## Characteristic Features
 
-* <img src="https://img.icons8.com/ultraviolet/40/000000/shop.png" height = "20" width = "20"/> View and buy clothing products.
-* <img src="https://img.icons8.com/ultraviolet/40/000000/color-dropper.png" height = "20" width = "20"/> Select from a wide variety of products, different color and sizes options.
-* <img src="https://img.icons8.com/ultraviolet/40/000000/lock-2.png" height = "20" width = "20"/> Secure JWT Authentication for user safety and protected routes.
-* <img src="https://img.icons8.com/fluent/48/000000/fast-cart.png" height = "20" width = "20"/> Cart functionality for saving products, updating their quantities and checking out of the store.
-* <img src="https://img.icons8.com/ultraviolet/40/000000/filter.png" height = "20" width = "20"/> Searching and Filtering your product searched by categories, prices, etc.
-* <img src="https://img.icons8.com/color/48/000000/overview-pages-1.png" height = "20" width = "20"/> Pagination feature for better user experience and decreased server load.
+* <img src="https://img.icons8.com/ultraviolet/40/000000/shop.png" height = "20" width = "20"/> Allow users to browse, view, and purchase clothing products
+* <img src="https://img.icons8.com/ultraviolet/40/000000/color-dropper.png" height = "20" width = "20"/> Provide users with a diverse selection of products, offering a range of color and size options corresponding to individual preferences and requirements
+* <img src="https://img.icons8.com/ultraviolet/40/000000/lock-2.png" height = "20" width = "20"/> Utilized strong encryption algorithms such as RSA to sign JWTs for user safety
+* <img src="https://img.icons8.com/fluent/48/000000/fast-cart.png" height = "20" width = "20"/> Cart functionality for adding the products in the cart, updating the quantities in the cart and checking the items in the cart
+* <img src="https://img.icons8.com/ultraviolet/40/000000/filter.png" height = "20" width = "20"/> Implementing flexible filtering options such as categories, price ranges
+* <img src="https://img.icons8.com/color/48/000000/overview-pages-1.png" height = "20" width = "20"/> "Implemented pagination to efficiently manage large datasets, providing users faster access to the products
 
 
 ## Tech Stack Used
  
-* [React.js](https://github.com/facebook/react "React.js + Hooks") is used for creating the UI.
+* [React.js](https://github.com/facebook/react "React.js + Hooks") is used for creating the User Interface
     * [React's Context API](https://github.com/facebook/react "React's Context API") is used for managing complex state.
 * [Django](https://www.djangoproject.com/ "Django") is used for the backend.
     * [Django Rest Framework](https://www.django-rest-framework.org/ "Django Rest Framework") is used for setting up API endpoints.
@@ -29,31 +29,29 @@ E-commerce is a fully functional *Clothing Ecommerce* Platform made using Django
 ## Prototype
 
 **Product List View**
-![Product List View](images/listview.png)
+
+![list view](https://github.com/Sriharikagathi/Ecommerce-Web-Application/assets/131581052/a866da75-d2e2-4673-8d32-d59df4463f15)
+
 
 **Pagination**
-![Pagination demonstration](images/pagination.png)
+
+![pagination](https://github.com/Sriharikagathi/Ecommerce-Web-Application/assets/131581052/20d1bb4d-09f6-477b-bd08-ded03bfcb47f)
 
 **Product Detail View**
-![Product Detail View](images/detailview.png)
+![product detail view](https://github.com/Sriharikagathi/Ecommerce-Web-Application/assets/131581052/69c20351-c808-4b82-a3a6-c81e749eff1f)
 
 **Product Added to Cart**
-![Product added to cart](images/addedtocart.png)
+
+![product added to cart](https://github.com/Sriharikagathi/Ecommerce-Web-Application/assets/131581052/ef685e57-e1f7-42a8-99e6-776c9e9a60bf)
 
 **Cart View**
-![Cart View](images/cartview.png)
 
+![cartview](https://github.com/Sriharikagathi/Ecommerce-Web-Application/assets/131581052/f2ca519a-32ca-41e0-bcf6-2f8ad4f7ec4c)
 
 
 ## What more can be done?
- 
-This project is far from perfect. Many more things can be done in order to make the user experience and the overall functioning of the product. These are some of the features that I believe could be added in the future:
- 
-* A product recommender system, that provides each user personalized recommendations according to their product searches.
-* Mechanism for storing user tokens in *cookies*, as Localstorage is prone to **XSS (Cross-Site Scripting)** attacks.
-* Integrating a NoSQL database(eg. MongoDB) for more flexibility in product detail fields.
- 
-
+A Product reccomendation system: 
+Implement a sophisticated product recommender system that analyzes user preferences and past searches for user customized reccommendations
 
 ## How to setup on a local machine?
 
